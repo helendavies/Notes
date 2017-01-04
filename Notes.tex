@@ -8,10 +8,14 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{color}
 %SetFonts
 
+%\newcommand{\todo}{\textcolor{red}{Do Something!}}
 %SetFonts
 
+\newcommand{\todo}[1]{ \textcolor{red}{\bf{To Do:} #1}}
+\newcommand{\toref}[1]{ \textcolor{blue}{\bf{REFERENCE #1}}}
 
 \title{Random stuff}
 \author{Me}
@@ -21,6 +25,103 @@
 \maketitle
 %\section{}
 %\subsection{}
+\section*{Wounds}
+
+Wounds are a huge burden to healthcare, both in the UK and globalling.
+In the UK, it is estimated that there are over 200,000 patients with chronic wounds, costing the National Health Service (NHS) approximately £2-3 billion annually (2005-6 figures) \cite{Posnett2008the}. 
+Global cost is thought to be \$13 - \$15 billion annually \cite{Siddiqui2010chronic}.
+\todo{Find more up to date figures for UK and ?globally.}
+
+Globally, wounds also present a huge problem, particularly with the high incidence of infection and antibiotic resistance \toref{Check proposal for references}. 
+
+\subsection*{Types of Wounds}
+Acute - 
+Chronic - harder to heal wounds, for example, arterial, venous, diabetic and pressure ulcers \cite{Velnar2009the}. Chronic wounds are often associated with other diseases or abnormalities, and are rare in healthy individuals \cite{Sen2009human}.
+
+\subsection{Normal Skin and the Wounding process}
+\begin{itemize}
+\item \todo{Add a short description of the skin and a diagram}
+\item \todo{Add the process of wounding?}
+\end{itemize}
+
+
+
+\subsection*{Wound healing process}
+Velnar2009 \cite{Velnar2009the} provides info below unless otherwise stated.
+\begin{enumerate}
+\item Coagulation and Haemostasis (immediately following injury). Prevents bleeding to death (immediate aim) and provides a matrix for infiltration by other cell types needed for healing (longer term aim). For this to occur there is reflexive contraction of smooth muscle and the formation of a fibrin plug (via activation of the clotting cascade \toref{}). Cells in the matrix contain factors that act to promote the healing process \toref{}.
+
+\item Inflammation (shortly after injury). Aim of preventing infection from entering at the wound site. Initially the innate immune system dominates, by activating the complement cascade and neutrophils are recruited to the area to begin the process of phagocytosis to clear the area of microbes and debris \toref{}. Over time, the inflammatory response moves to being more macrophage driven \toref{}. These continue the process of phagocytosis, whilst also activating keratinocytes, fibroblasts and endothelial cells and providing a reservoir of potent tissue growth factors. Macrophages are also important for activating the adaptive immune system to recruit lymphocytes to the wound site, usually by around 72 hours post injury \cite{Velnar2009the}.
+
+\item Proliferation (begins within days of injury and forms the most part of the healing process. Day 3 - 2 weeks after ish)
+
+\begin{itemize}
+\item Fibroblast migration and deposition of new ECM. This is all the desposition of granulation tissue. The new ECM network allows further cell migration for further repair. Myofibroblasts become contractile (containing bundles of actin), and contract to reduce the wound size.
+\item Lots of collagen synthesised (by fibroblasts)
+\item Sprouting of vasculature at the wound edges into the wound forms a new microvascular network through the wound to allow it to be perfused.
+\item Epithelialisation - migration of epithelial cells starts hours after wounding and they move over the new ECM matrix and when they meet in the middle, they stop proliferating and a basement membrane begins to form.
+\end{itemize}
+
+\item Remodelling (including scar tissue formation. Can take up to years to complete). Responsible for the development of new epithelium and final scar tissue formation. Strongly regulated to maintain delicate balance of degradation and synthesis required for normal healing. Increasing collagen production increases wound strength.
+Collagen deposition is disorganised but becomes more organised over time, helped by wound contraction. Over time, cell density and metabolic activity decreases, resulting in a mature scar.
+
+\item Healing by primary intention - no tissue loss, clean wounds/incisions
+\item Healing by secondary intention - tissue loss, requires lots of granulation tissue formation to fill in the space. Takes longer than primary intention.
+
+\end{enumerate}
+
+\subsection*{Chronic Wounds}
+\cite{Frykberg2015challenges}
+Chronic wounds are those that do not heal via the normal healing process in an ordered and timely manner.
+Often they stall in inflammatory phase.
+Although different wounds are different, generally chronic wounds share features of excessive levels of proinflammatory cytokines, proteases, ROS, senescent cells and persistent infection.
+'Due to repeated tissue injury', the presence of some factors and microorganisms results in repeated stimulation of the immune system.
+Excess pro-inflammatory cytokines results in high, unregulated levels of proteases which in turn causes destruction of the ECM.
+This not only prevents progression to the proliferative phase, but also ECM breakdown products stimulate the immune system resulting in a vicious cycle of increasing inflammatory response and delayed healing.
+Furthermore,  inflammatory cells also release ROS, which are normally useful for decreasing bacterial colonisation, however, over prolonged periods, they are harmful to host tissue and do more harm than good.
+Chronic wounds also usually have populations of senescent cells which are unresponsive to wound healing signals.
+Finally, it has been shown that mesenchymal stem cells are important for the healing of wounds and that MSCs are mobilised after injuries to help with the wound healing response.
+However, it has been shown that these can be depleted/deficient in chronic wounds, therefore, contributing to the defective wound healing response.
+
+
+\subsection{Wound infection}
+\cite{Siddiqui2010chronic}
+Wound infection seems to be a controversial topic. Firstly, there are different levels of bacterial presence in a wound.
+Contamination, colonisation and infection. 
+Contamination always occurs from the surrounding skin/environment entering the wound site.
+Colonisation is when there is bacterial presence and proliferation, without obvious host response.
+Bacterial colonisation is thought to have a threshold, below which the bacterial presence enhances wound healing (local inflammation increasing local perfusion), but above which wound healing is impaired.
+The threshold is thought to depend on the physiological status of the host.
+At a certain point, the colonisation becomes an infection as the bacterial proliferation overcomes the host immune response and tissue damage occurs.
+This point of infection will vary depending on bacterial factors (virulence, abundance, synergy of different species) and host factors (ability to mount response, perfusion, necrosis etc at injury site).
+
+Most common types of wound-colonising bacteria include \textit{Staphylococcus aureus, Pseudomonas aeruginosa} and coagulase-negative staphylococci \cite{Siddiqui2010chronic, Church2006burn, Bowler2001wound}.
+
+Biofilms are when bacteria grow and aggregate, surrounded by an extracellular matrix composed of polymeric substance.
+Within this matrix are channels which allow delivery of nutrients for the bacterial cells and a route for removal of waste products.
+Biofilms are less susceptible to antibiotic treatment due to impermeability of matrix and slow cell turnover etc.
+They are a direct impediment to chronic wound healing.
+\textit{S. aureus} and \textit{P. aeruginosa} are good at producing biofilms.
+
+\todo{resistance in Staph Chambers2009}
+
+
+
+
+
+\subsection{Effects of plasma on bacteria/infection}
+\toref{Korachi2009, Korachi2013, Laroussi, Matthes2014 (repeated plasma doesn't induce staph resistance), Wagenaars2011}
+
+
+\subsection{Effects of plasma on wound healing}
+\toref{Kramer2013, Haertel2014, Bender2012, Brehmer2015, Joshi, Kong2009, }
+
+
+
+
+
+
+
 
 \subsection*{Collision cross section}
 This is the area around an atom/molecule that another atom/molecule's centre would have to be inside for a reaction to occur (collision occurs when the distance between the centres of the reactants is less than the sum of their radii). The collision cross section is for one molecule but is dependent on the other molecule too.
